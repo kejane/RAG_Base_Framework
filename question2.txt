@@ -1,0 +1,180 @@
+交叉熵损失是什么，给公式和简单推导
+
+交叉熵和均方误差 MSE 有什么区别
+
+二分类交叉熵和多分类交叉熵差异
+
+KL 散度和交叉熵之间是什么关系
+
+请用例子解释交叉熵为什么适合分类
+
+Softmax+交叉熵和 Sigmoid+交叉熵区别
+
+什么是 label smoothing，有什么直观理解
+
+Focal Loss 是怎么缓解样本不均衡的
+
+L1 和 L2 正则化的区别和适用场景
+
+什么是最大似然估计和交叉熵的关系
+
+梯度消失通常出现在什么类型网络里
+
+梯度爆炸和梯度消失有什么区别
+
+为什么深层 Sigmoid 网络容易梯度消失
+
+ReLU 如何在一定程度上缓解梯度消失
+
+残差网络 ResNet 为什么能减轻退化问题
+
+BatchNorm 对梯度传播有何影响
+
+LayerNorm 和 BatchNorm 区别及使用场景
+
+为什么 RNN 特别容易出现梯度消失
+
+LSTM 是如何设计来缓解梯度消失的
+
+梯度裁剪 gradient clipping 的原理是什么
+
+学习率过大或过小会带来什么现象
+
+学习率预热 warmup 的直观作用是什么
+
+余弦退火学习率调度怎么理解
+
+Adam 和 SGD+momentum 的主要区别
+
+为什么 Adam 在某些任务上泛化较差
+
+weight decay 和 L2 正则是同一个东西吗
+
+Dropout 的原理是什么，训练和推理区别
+
+为什么 Dropout 不适合用在 RNN 隐状态上
+
+Early stopping 算不算正则化手段
+
+如何判断模型是欠拟合还是过拟合
+
+什么是偏差方差权衡，用图直观解释
+
+过拟合的常见征兆有哪些
+
+提高模型泛化能力常用方法有哪些
+
+数据增强 data augmentation 的常见技巧
+
+batch size 大小对训练有何影响
+
+小 batch 和大 batch 在收敛上的差异
+
+为什么要打乱数据 shuffle 才训练
+
+epoch 和 iteration 分别是什么意思
+
+online learning 和 mini-batch 学习区别
+
+什么是梯度检查 gradient checking
+
+请通俗解释下 Softmax 的数学含义
+
+Softmax 数值不稳定时会发生什么
+
+为什么计算 Softmax 前要减去最大值
+
+log-sum-exp 技巧是怎么推导出来的
+
+Sigmoid 函数的几何意义是什么
+
+Tanh 跟 Sigmoid 有何不同，优缺点
+
+GELU 激活函数是什么，有何优势
+
+为什么现在很多模型用 SiLU/Swish
+
+多分类用 Softmax，二分类用 Sigmoid 原因
+
+温度系数 temperature 在 Softmax 里作用
+
+请解释一下残差连接 residual connection
+
+什么是多头自注意力 multi-head attention
+
+self-attention 的 Q K V 是怎么来的
+
+Transformer 里的位置编码有几种方式
+
+为什么 Transformer 可以替代 RNN 做序列
+
+encoder 和 decoder 结构的本质区别
+
+什么是 masked self-attention，作用是什么
+
+causal attention 和 bidirectional attention 差异
+
+什么是前馈网络 FFN，在 Transformer 中作用
+
+LayerNorm 为什么一般放在残差前后
+
+帮我写一个 PyTorch 两层 MLP 训练 MNIST
+
+PyTorch 中 DataLoader 和 Dataset 如何自定义
+
+如何在 PyTorch 中固定随机种子保证复现
+
+PyTorch 里 model.train() 和 eval() 区别
+
+手写一个简单的 CNN 分类 CIFAR10 示例
+
+给一个使用 CrossEntropyLoss 的完整训练循环
+
+如何在 PyTorch 中保存和加载模型参数
+
+如何用 torch.no_grad() 做推理减少显存
+
+在 GPU 上训练模型需要哪些基本步骤
+
+PyTorch 中如何查看每层参数数量
+
+用 PyTorch 实现一个简单的 LSTM 文本分类
+
+手写一个自定义 Dataset 读取本地图片
+
+用 PyTorch Lightning 重构普通训练脚本
+
+如何在训练中加入学习率调度器 scheduler
+
+给个例子演示 gradient clipping 的写法
+
+如何监控训练中的 loss 和 accuracy 曲线
+
+用 TensorBoard 可视化训练过程的示例
+
+PyTorch 中多卡 DataParallel 的简易用法
+
+用 ddp 分布式训练最小示例代码
+
+如何在训练时打印每一层梯度的范数
+
+请帮我解释一下交叉验证 cross validation
+
+什么是 train/valid/test 划分各自作用
+
+AUC、Accuracy、Precision、Recall 区别
+
+F1 分数怎么计算，直观意义是啥
+
+ROC 曲线和 PR 曲线各自适用场景
+
+什么是混淆矩阵，如何解读
+
+回归任务常用评估指标有哪些
+
+分类任务遇到类别极不平衡如何处理
+
+置信度 calibration 是什么，有什么方法
+
+什么是 overfitting 和 underfitting 实例
+
